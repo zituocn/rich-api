@@ -1,11 +1,14 @@
 # RICH-API
 
-baidu收录检测API
+baidu收录检测的API，即传入一个网址，检测此地址是否被baidu收录。
+
+
 
 ### 一、特性
 
 * 使用chromedp检测某地址是否被baidu收录;
 * HTTP API化了，可以部署在任意操作系统下;
+* 建议配合RichCMS使用;
 
 ### 二、安装方式
 
@@ -80,3 +83,6 @@ token = 6eff526e68eabf54a28e5d136d4eba9c
 * gow
 * chromedp
 * logx
+
+### 四、RichCMS
+* 一个使用golang开发的CMS，官网地址：https://www.richcms.net

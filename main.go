@@ -13,6 +13,7 @@ func init() {
 
 func main() {
 	r := gow.Default()
+
 	r.SetAppConfig(gow.GetAppConfig())
 	router.APIRouter(r)
 	err := r.Run()
